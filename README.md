@@ -13,13 +13,13 @@ Vous devez déterminer cette quantité de carburant en prenant en compte le poid
 
 Donc :
 
-Pour une masse de 12, divisez par 3 et arrondissez à l'inférieur pour obtenir 4, puis soustrayez 2 pour obtenir 2.
-Pour une masse de 14, diviser par 3 et arrondir à l'inférieur donne encore 4, donc le carburant nécessaire est aussi 2.
-Pour une masse de 1969, le carburant nécessaire est de 654.
-Pour une masse de 100756, le carburant nécessaire est de 33583.
+- Pour une masse de 12, divisez par 3 et arrondissez à l'inférieur pour obtenir 4, puis soustrayez 2 pour obtenir 2.
+- Pour une masse de 14, diviser par 3 et arrondir à l'inférieur donne encore 4, donc le carburant nécessaire est aussi 2.
+- Pour une masse de 1969, le carburant nécessaire est de 654.
+- Pour une masse de 100756, le carburant nécessaire est de 33583.
 
 Le compteur de carburant doit connaître le besoin total en carburant. Pour le trouver, calculez individuellement le carburant nécessaire pour la masse de chaque module, puis additionnez toutes les valeurs de carburant.
 
 **Quelle est la somme des besoins en carburant pour tous les modules de notre fusée ?**
 
-Voici le liste des différents modules (leur masse) : 
+Voici le liste des différents modules (leur masse) : [MODULE](https://github.com/7antra/Rocket.studio-ITW/blob/master/A_liste-module.txt)
