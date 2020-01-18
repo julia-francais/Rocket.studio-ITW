@@ -57,7 +57,7 @@ Zut, votre calcul du carburant est peut-être bon, mais il faut réparer l'assis
 
 En ouvrant le panneau avant du module gravitationel, on découvre un enchevêtrement de fils. Plus précisément, deux fils sont reliés à un port central et se prolongent vers l'extérieur sur une grille. Vous tracez le chemin que prend chaque fil lorsqu'il quitte le port central, un fil par ligne de texte (votre input cf. plus bas).
 
-Les fils se tordent et tournent, mais les deux fils se croisent parfois. Pour réparer le circuit, vous devez trouver le point d'intersection le plus proche du port central. Comme les fils sont sur une grille, utiliser la distance de Manhattan pour cette mesure. Bien que les fils se croisent techniquement au niveau du port central où ils commencent tous les deux, ce point ne compte pas, et un fil ne compte pas non plus comme se croisant avec lui-même.
+Les fils se tordent et tournent, mais les deux fils se croisent parfois. Pour réparer le circuit, vous devez trouver le point d'intersection le plus proche du port central. Comme les fils sont sur une grille, utiliser la [distance de Manhattan](https://fr.wikipedia.org/wiki/Distance_de_Manhattan) pour cette mesure. Bien que les fils se croisent techniquement au niveau du port central où ils commencent tous les deux, ce point ne compte pas, et un fil ne compte pas non plus comme se croisant avec lui-même.
 
 Par exemple, si le chemin du premier fil est **R8,U5,L5,D3**, alors en partant du port central (o), il va de ***8 case à droite, 5 en haut, 5 à gauche, et finalement de 3 en bas*** représenté comme ceci : 
 
@@ -73,3 +73,25 @@ Par exemple, si le chemin du premier fil est **R8,U5,L5,D3**, alors en partant d
 .o-------+.
 ...........
 ```
+
+
+Ensuite, si le chemin du deuxième fil est **U7,R6,D4,L4**, ***il monte de 7, droite 6, descend de 4 et gauche 4*** comme ceci :
+
+```
+...........
+.+-----+...
+.|.....|...
+.|..+--X-+.
+.|..|..|.|.
+.|.-X--+.|.
+.|..|....|.
+.|.......|.
+.o-------+.
+...........
+```
+
+Ces fils se croisent à deux endroits **(marqués X)**, mais celui en bas à gauche est plus proche du port central : sa *distance Manhattan* est de 3 + 3 = 6.
+
+Voici quelques exemples supplémentaires :
+
+- **R75,D30,R83,U83,L12,D49,R71,U7,L72** & **U62,R66,U55,R34,D71,R55,D58,R83** = distance de **159**
