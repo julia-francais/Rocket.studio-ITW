@@ -7,14 +7,14 @@
 
 ---
 
-## Exercice A : Décolage d'une fusée
+## Exercice A : Décolage d'une fusée 🚀
 
 
 
 Pour décoler, une fusée a besoin d'une quantité de carburant. 
 Vous devez déterminer cette quantité de carburant en prenant en compte le poids des diférents modules (satellite(s), vaisseau spatial, sonde, instruments) constituant notre fusée.
 
-### Question 1 : Masse module
+### 💡 Question 1 : Masse module
 
 Pour obtenir la quantité de carburant il faut : 
 *Diviser une masse ℵ d'un module par trois, l'arrondir à l'unité inférieure et soustraire 2.*
@@ -30,11 +30,11 @@ Le compteur de carburant doit connaître le besoin total en carburant. Pour le t
 
 **Q1 : Quelle est la somme des besoins en carburant pour tous les modules de notre fusée ?**
 
-Voici l'input des différents modules (leur masse) : [MODULES](https://github.com/7antra/Rocket.studio-ITW/blob/master/A_liste-module.txt)
+📎 Voici l'input des différents modules (leur masse) : [MODULES](https://github.com/7antra/Rocket.studio-ITW/blob/master/A_liste-module.txt)
 
 ---
 
-### Question 2 : Masse carburant
+### 💡 Question 2 : Masse carburant
 
 Evidemment, vous avez oublier que le carburant possède lui aussi sa propre masse. 
 Le carburant lui-même nécessite du carburant tout comme un module - *prenez sa masse, divisez-la par trois, arrondissez à l'unité inférieure et soustrayez 2.* Cependant, ce carburant a aussi besoin de carburant, et ce carburant a besoin de carburant, et ainsi de suite. 
@@ -47,7 +47,7 @@ Donc, pour chaque masse de module, il faut calculer son carburant et l'ajouter a
 
 **Q2 : Quelle est la somme des besoins en carburant de tous les modules de notre fusée en tenant compte également de la masse du carburant ajouté ?** (Calculez les besoins en carburant de chaque module séparément, puis additionnez-les tous à la fin).
 
-Même input que précedemment : [MODULES](https://github.com/7antra/Rocket.studio-ITW/blob/master/A_liste-module.txt)
+📎 Même input que précedemment : [MODULES](https://github.com/7antra/Rocket.studio-ITW/blob/master/A_liste-module.txt)
 
 ---
 
@@ -61,6 +61,7 @@ Les fils se tordent et tournent, mais les deux fils se croisent parfois. Pour r�
 
 Par exemple, si le chemin du premier fil est **R8,U5,L5,D3**, alors en partant du port central (o), il va de ***8 case à droite, 5 en haut, 5 à gauche, et finalement de 3 en bas*** représenté comme ceci : 
 
+```
 ...........
 ...........
 ...........
@@ -71,3 +72,4 @@ Par exemple, si le chemin du premier fil est **R8,U5,L5,D3**, alors en partant d
 .........|.
 .o-------+.
 ...........
+```
