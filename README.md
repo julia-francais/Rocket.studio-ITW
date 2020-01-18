@@ -106,4 +106,4 @@ Voici quelques exemples supplémentaires :
   
 **Q1 : Quelle est la distance de Manhattan entre le port central et l'intersection la plus proche ?** 
   
-📎 Voici vos fils : [INPUT](http)
+📎 Voici vos fils : [INPUT](https://github.com/7antra/Rocket.studio-ITW/blob/master/B_input-fils.txt)
