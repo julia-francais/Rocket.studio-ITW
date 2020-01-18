@@ -7,7 +7,7 @@
 
 ---
 
-## Exercice A : Décolage d'une fusée 🚀
+## 🚀 Exercice A : Décolage d'une fusée 
 
 
 
@@ -51,7 +51,7 @@ Donc, pour chaque masse de module, il faut calculer son carburant et l'ajouter a
 
 ---
 
-## Exercice B : Court-circuit
+## 🧬 Exercice B : Court-circuit
 
 Zut, votre calcul du carburant est peut-être bon, mais il faut réparer l'assistance gravitationnelle : 
 
