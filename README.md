@@ -7,7 +7,7 @@
 
 ---
 
-## Exercice A : Décolage d'une fusée 🚀
+## 🚀 Exercice A : Décolage d'une fusée 
 
 
 
@@ -104,6 +104,6 @@ Voici quelques exemples supplémentaires :
   - = distance de **135**
   
   
-  **Q1 : Quelle est la distance de Manhattan entre le port central et l'intersection la plus proche ?** 
+**Q1 : Quelle est la distance de Manhattan entre le port central et l'intersection la plus proche ?** 
   
 📎 Voici vos fils : [INPUT](http)
