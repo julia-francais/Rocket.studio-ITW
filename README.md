@@ -149,4 +149,4 @@ Voici les meilleurs pas pour les exemples supplémentaires du dessus :
   
 **Quelle est la plus petite combinaison d'étapes que les fils doivent franchir pour atteindre une intersection ?**
 
-📎 Les fils n'ont pas changé : [INPUT](https://github.com/7antra/Rocket.studio-ITW/blob/master/B_input-fils.txt)
+📎 Les fils n'ont pas changés : [INPUT](https://github.com/7antra/Rocket.studio-ITW/blob/master/B_input-fils.txt)
