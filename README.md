@@ -1,3 +1,5 @@
+![logo](https://www.rocketstud.io/img/logos/logo4.png)
+
 # Rocket Studio {JS interview}
 Interview .js pour RS
 
