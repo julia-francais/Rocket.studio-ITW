@@ -1,15 +1,22 @@
 ![logo](https://www.rocketstud.io/img/logos/logo4.png)
 
 # Rocket Studio {JS interview}
-Interview .js pour RS
+**Interview .js pour RS**
+
+***Consignes :*** Emmetre un pull request de vos résolutions algorithmiques commentées ; vous n'êtes pas obligés de faire tous les exercices. 
 
 
 ## Exercice A : Décolage d'une fusée
 
+
+
 Pour décoler, une fusée a besoin d'une quantité de carburant. 
 Vous devez déterminer cette quantité de carburant en prenant en compte le poids des diférents modules (satellite(s), vaisseau spatial, sonde, instruments) constituant notre fusée.
 
-*La formule admise ici pour obtenir la quantité de carburant : pour une masse ℵ d'un module ; la diviser par trois, l'arrondir à l'unité inférieure et soustraire 2.*
+### Question 1 : Masse module
+
+Pour obtenir la quantité de carburant il faut : 
+*Diviser une masse ℵ d'un module par trois, l'arrondir à l'unité inférieure et soustraire 2.*
 
 Donc :
 
@@ -20,6 +27,13 @@ Donc :
 
 Le compteur de carburant doit connaître le besoin total en carburant. Pour le trouver, calculez individuellement le carburant nécessaire pour la masse de chaque module, puis additionnez toutes les valeurs de carburant.
 
-**Quelle est la somme des besoins en carburant pour tous les modules de notre fusée ?**
+**Q1 : Quelle est la somme des besoins en carburant pour tous les modules de notre fusée ?**
 
-Voici le liste des différents modules (leur masse) : [MODULE](https://github.com/7antra/Rocket.studio-ITW/blob/master/A_liste-module.txt)
+Voici l'input des différents modules (leur masse) : [MODULES](https://github.com/7antra/Rocket.studio-ITW/blob/master/A_liste-module.txt)
+
+-----
+
+### Question 2 : Masse carburant
+
+
+
