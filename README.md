@@ -14,7 +14,7 @@
 Pour décoler, une fusée a besoin d'une quantité de carburant. 
 Vous devez déterminer cette quantité de carburant en prenant en compte le poids des diférents modules (satellite(s), vaisseau spatial, sonde, instruments) constituant notre fusée.
 
-### Question 1 : Masse module 💡 
+### Question 1 : Masse module 🛰️ 
 
 Pour obtenir la quantité de carburant il faut : 
 *Diviser une masse ℵ d'un module par trois, l'arrondir à l'unité inférieure et soustraire 2.*
@@ -34,7 +34,7 @@ Le compteur de carburant doit connaître le besoin total en carburant. Pour le t
 
 ---
 
-### Question 2 : Masse carburant 💡 
+### Question 2 : Masse carburant ⛽ 
 
 Evidemment, vous avez oublier que le carburant possède lui aussi sa propre masse. 
 Le carburant lui-même nécessite du carburant tout comme un module - *prenez sa masse, divisez-la par trois, arrondissez à l'unité inférieure et soustrayez 2.* Cependant, ce carburant a aussi besoin de carburant, et ce carburant a besoin de carburant, et ainsi de suite. 
@@ -55,7 +55,7 @@ Donc, pour chaque masse de module, il faut calculer son carburant et l'ajouter a
 
 Zut, votre calcul du carburant est peut-être bon, mais il faut réparer l'assistance gravitationnelle : 
 
-### Question 1 : Manhattan Distance 💡 
+### Question 1 : Manhattan Distance 📐 
 
 En ouvrant le panneau avant du module gravitationel, on découvre un enchevêtrement de fils. Plus précisément, deux fils sont reliés à un port central et se prolongent vers l'extérieur sur une grille. Vous tracez le chemin que prend chaque fil lorsqu'il quitte le port central, un fil par ligne de texte comme ceci : 
 
@@ -111,8 +111,9 @@ Voici quelques exemples supplémentaires :
   
 📎 Voici vos fils : [INPUT](https://github.com/7antra/Rocket.studio-ITW/blob/master/B_input-fils.txt)
 
+---
 
-### Question 3 : Timing parfait 
+### Question 3 : Timing parfait ⏱️
 
 Il s'avère que ce circuit est très sensible au timing ; vous devez en fait minimiser le retard du signal.
 
