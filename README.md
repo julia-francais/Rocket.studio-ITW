@@ -100,3 +100,8 @@ Voici quelques exemples supplémentaires :
 - 1. **R98,U47,R26,D63,R33,U87,L62,D20,R33,U53,R51**
   2. **U98,R91,D20,R16,D67,R40,U7,R15,U6,R7**
   - = distance de **135**
+  
+  
+  ### 💡 Q1 : Quelle est la distance de Manhattan entre le port central et l'intersection la plus proche ?
+  
+📎 Voici vos fils : [INPUT](http)
