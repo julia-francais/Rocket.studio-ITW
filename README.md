@@ -57,7 +57,10 @@ Zut, votre calcul du carburant est peut-être bon, mais il faut réparer l'assis
 
 ### Question 1 : Manhattan Distance 💡 
 
-En ouvrant le panneau avant du module gravitationel, on découvre un enchevêtrement de fils. Plus précisément, deux fils sont reliés à un port central et se prolongent vers l'extérieur sur une grille. Vous tracez le chemin que prend chaque fil lorsqu'il quitte le port central, un fil par ligne de texte (votre input cf. plus bas).
+En ouvrant le panneau avant du module gravitationel, on découvre un enchevêtrement de fils. Plus précisément, deux fils sont reliés à un port central et se prolongent vers l'extérieur sur une grille. Vous tracez le chemin que prend chaque fil lorsqu'il quitte le port central, un fil par ligne de texte comme ceci : 
+
+- *fil n°1 :* R8,U5,L5,D3
+- *fil n°2 :* U7,R6,D4,L4
 
 Les fils se tordent et tournent, mais les deux fils se croisent parfois. Pour réparer le circuit, vous devez trouver le point d'intersection le plus proche du port central. Comme les fils sont sur une grille, utiliser la [distance de Manhattan](https://fr.wikipedia.org/wiki/Distance_de_Manhattan) pour cette mesure. Bien que les fils se croisent techniquement au niveau du port central où ils commencent tous les deux, ce point ne compte pas, et un fil ne compte pas non plus comme se croisant avec lui-même.
 
@@ -107,3 +110,25 @@ Voici quelques exemples supplémentaires :
 **Q1 : Quelle est la distance de Manhattan entre le port central et l'intersection la plus proche ?** 
   
 📎 Voici vos fils : [INPUT](https://github.com/7antra/Rocket.studio-ITW/blob/master/B_input-fils.txt)
+
+
+### Question 3 : Timing parfait 
+
+Il s'avère que ce circuit est très sensible au timing ; vous devez en fait minimiser le retard du signal.
+
+Pour ce faire, calculez le nombre de pas que chaque fil prend pour atteindre chaque intersection ; choisissez l'intersection où la somme des pas des deux fils est la plus faible. Si un fil visite une position sur la grille plusieurs fois, utilisez la valeur des pas de la première fois qu'il visite cette position pour calculer la valeur totale d'une intersection spécifique.
+
+Le nombre de pas d'un fil est le nombre total de carrés de la grille que le fil a entrés pour se rendre à cet endroit, y compris l'intersection considérée. Considérons à nouveau l'exemple ci-dessus :
+
+```
+...........
+.+-----+...
+.|.....|...
+.|..+--X-+.
+.|..|..|.|.
+.|.-X--+.|.
+.|..|....|.
+.|.......|.
+.o-------+.
+...........
+```
