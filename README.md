@@ -109,7 +109,7 @@ Voici quelques exemples supplémentaires :
   
 **Q1 : Quelle est la distance de Manhattan entre le port central et l'intersection la plus proche ?** 
   
-📎 Voici vos fils : [INPUT](https://github.com/7antra/Rocket.studio-ITW/blob/master/B_input-fils.txt)
+📎 Voici vos fils : [INPUT](https://github.com/7antra/Rocket.studio-ITW/blob/master/B_input-fils.txt) (un fil par ligne)
 
 ---
 
@@ -117,7 +117,7 @@ Voici quelques exemples supplémentaires :
 
 Il s'avère que ce circuit est très sensible au timing ; vous devez en fait minimiser le retard du signal.
 
-Pour ce faire, calculez le nombre de pas que chaque fil prend pour atteindre chaque intersection ; choisissez l'intersection où la somme des pas des deux fils est la plus faible. Si un fil visite une position sur la grille plusieurs fois, utilisez la valeur des pas de la première fois qu'il visite cette position pour calculer la valeur totale d'une intersection spécifique.
+Pour ce faire, calculez le nombre de pas/étape que chaque fil prend pour atteindre chaque intersection ; choisissez l'intersection où la somme des pas des deux fils est la plus faible. Si un fil visite une position sur la grille plusieurs fois, utilisez la valeur des pas de la première fois qu'il visite cette position pour calculer la valeur totale d'une intersection spécifique.
 
 Le nombre de pas d'un fil est le nombre total de carrés de la grille que le fil a entrés pour se rendre à cet endroit, y compris l'intersection considérée. Considérons à nouveau l'exemple ci-dessus :
 
@@ -134,7 +134,7 @@ Le nombre de pas d'un fil est le nombre total de carrés de la grille que le fil
 ...........
 ```
 
-Dans l'exemple ci-dessus, l'intersection la plus proche du port central est atteinte après 8+5+5+2 = 20 pas par le premier fil et 7+6+4+3 = 20 pas par le second fil pour un total de 20+20 = 40 pas.
+Dans l'exemple ci-dessus, l'intersection la plus proche du port central est atteinte après 8+5+5+2 = 20 pas par le premier fil et 7+6+4+3 = 20 pas pour le second fil pour un total de 20+20 = 40 pas.
 
 Cependant, l'intersection en haut à droite est meilleure : le premier fil prend seulement 8+5+2 = 15 et le second fil prend seulement 7+6+2 = 15, un total de 15+15 = 30 pas.
 
@@ -142,11 +142,11 @@ Voici les meilleurs pas pour les exemples supplémentaires du dessus :
 
 - 1. **R75,D30,R83,U83,L12,D49,R71,U7,L72**
   2. **U62,R66,U55,R34,D71,R55,D58,R83** 
-  - **610** étapes.
+  - **610** pas.
 - 1. **R98,U47,R26,D63,R33,U87,L62,D20,R33,U53,R51**
   2. **U98,R91,D20,R16,D67,R40,U7,R15,U6,R7**
-  - **410** étapes.
+  - **410** pas.
   
-**Quelle est la plus petite combinaison d'étapes que les fils doivent franchir pour atteindre une intersection ?**
+**Quelle est la plus petite combinaison de pas que les fils doivent franchir pour atteindre une intersection ?**
 
 📎 Les fils n'ont pas changés : [INPUT](https://github.com/7antra/Rocket.studio-ITW/blob/master/B_input-fils.txt)
