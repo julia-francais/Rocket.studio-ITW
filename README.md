@@ -3,7 +3,7 @@
 # Rocket Studio {JS interview}
 **Interview .js pour RS**
 
-***Consignes :*** Emmetre un pull request de vos résolutions algorithmiques commentées ; vous n'êtes pas obligés de faire tous les exercices. 
+***Consignes :*** Emmetre un pull request avec vos résolutions algorithmiques commentées et le résultat obtenu aussi en commentaire; vous n'êtes pas obligés de faire tous les exercices. 
 
 ---
 
