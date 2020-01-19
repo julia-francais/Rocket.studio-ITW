@@ -64,7 +64,7 @@ En ouvrant le panneau avant du module gravitationel, on découvre un enchevêtre
 
 Les fils se tordent et tournent, mais les deux fils se croisent parfois. Pour réparer le circuit, vous devez trouver le point d'intersection le plus proche du port central. Comme les fils sont sur une grille, utiliser la [distance de Manhattan](https://fr.wikipedia.org/wiki/Distance_de_Manhattan) pour cette mesure. Bien que les fils se croisent techniquement au niveau du port central où ils commencent tous les deux, ce point ne compte pas, et un fil ne compte pas non plus comme se croisant avec lui-même.
 
-Par exemple, si le chemin du premier fil est **R8,U5,L5,D3**, alors en partant du port central (o), il va de ***8 case à droite, 5 en haut, 5 à gauche, et finalement de 3 en bas*** représenté comme ceci : 
+Par exemple, si le chemin du premier fil est **D8,H5,G5,B3**, alors en partant du port central (o), il va de ***8 case à droite, 5 en haut, 5 à gauche, et finalement de 3 en bas*** représenté comme ceci : 
 
 ```
 ...........
@@ -80,7 +80,7 @@ Par exemple, si le chemin du premier fil est **R8,U5,L5,D3**, alors en partant d
 ```
 
 
-Ensuite, si le chemin du deuxième fil est **U7,R6,D4,L4**, ***il monte de 7, droite 6, descend de 4 et gauche 4*** comme ceci :
+Ensuite, si le chemin du deuxième fil est **H7,D6,B4,G4**, ***il monte de 7, droite 6, descend de 4 et gauche 4*** comme ceci :
 
 ```
 ...........
@@ -99,11 +99,11 @@ Ces fils se croisent à deux endroits **(marqués X)**, mais celui en bas à gau
 
 Voici quelques exemples supplémentaires :
 
-- 1. **R75,D30,R83,U83,L12,D49,R71,U7,L72**
-  2. **U62,R66,U55,R34,D71,R55,D58,R83** 
+- 1. **D75,B30,D83,H83,G12,B49,D71,H7,G72**
+  2. **H62,D66,H55,D34,B71,D55,B58,D83** 
   - Distance de **159**
-- 1. **R98,U47,R26,D63,R33,U87,L62,D20,R33,U53,R51**
-  2. **U98,R91,D20,R16,D67,R40,U7,R15,U6,R7**
+- 1. **D98,H47,D26,B63,D33,H87,G62,B20,D33,H53,D51**
+  2. **H98,D91,B20,D16,B67,D40,H7,D15,H6,D7**
   - Distance de **135**
   
   
@@ -140,11 +140,11 @@ Cependant, l'intersection en haut à droite est meilleure : le premier fil prend
 
 Voici les meilleurs pas pour les exemples supplémentaires du dessus :
 
-- 1. **R75,D30,R83,U83,L12,D49,R71,U7,L72**
-  2. **U62,R66,U55,R34,D71,R55,D58,R83** 
+- 1. **D75,B30,D83,H83,G12,B49,D71,H7,G72**
+  2. **H62,D66,H55,D34,B71,D55,B58,D83** 
   - **610** pas.
-- 1. **R98,U47,R26,D63,R33,U87,L62,D20,R33,U53,R51**
-  2. **U98,R91,D20,R16,D67,R40,U7,R15,U6,R7**
+- 1. **D98,H47,D26,B63,D33,H87,G62,B20,D33,H53,D51**
+  2. **H98,D91,B20,D16,B67,D40,H7,D15,H6,D7**
   - **410** pas.
   
 **Quelle est la plus petite combinaison de pas que les fils doivent franchir pour atteindre une intersection ?**
