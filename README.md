@@ -3,7 +3,7 @@
 # Rocket Studio {JS interview}
 **Interview .js pour RS**
 
-***Consignes :*** Emmetre un pull request avec vos résolutions algorithmiques commentées et le résultat obtenu aussi en commentaire; vous n'êtes pas obligés de faire tous les exercices. 
+***Consignes :*** Emetre une pull request avec vos résolutions algorithmiques commentées et le résultat obtenu aussi en commentaire; vous n'êtes pas obligés de faire tous les exercices. 
 
 ---
 
@@ -11,8 +11,8 @@
 
 
 
-Pour décoler, une fusée a besoin d'une quantité de carburant. 
-Vous devez déterminer cette quantité de carburant en prenant en compte le poids des diférents modules (satellite(s), vaisseau spatial, sonde(s), instruments) constituant notre fusée.
+Pour décoller, une fusée a besoin d'une quantité de carburant. 
+Vous devez déterminer cette quantité de carburant en prenant en compte le poids des différents modules (satellite(s), vaisseau spatial, sonde(s), instruments) constituant notre fusée.
 
 ### Question 1 : Masse module 🛰️ 
 
@@ -113,7 +113,7 @@ Voici quelques exemples supplémentaires :
 
 ---
 
-### Question 3 : Timing parfait ⏱️
+### Question 2 : Timing parfait ⏱️
 
 Il s'avère que ce circuit est très sensible au timing ; vous devez en fait minimiser le retard du signal.
 
